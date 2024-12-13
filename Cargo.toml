@@ -1,0 +1,11 @@
+[package]
+name = "compress"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+libc = "0.2"
+rand = "0.8"
+
+[build-dependencies]
+cc = "1.0"
